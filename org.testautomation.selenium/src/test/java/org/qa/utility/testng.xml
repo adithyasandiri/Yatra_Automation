@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Automation Suite" parallel="tests">
+	<listeners>
+		<listener class-name="org.qa.utility.Reporting" />
+	</listeners>
+	<test thread-count="5" name="Functional Testing - Edge - Yatra"
+		parallel="classes">
+		<parameter name="Browser" value="Chrome" />
+		<parameter name="Url" value="https://www.yatra.com/"></parameter>
+		<classes>
+			<!-- <class name="org.qa.testscripts.TC_YatraBuses_002" /> -->
+			<!-- <class name="org.qa.testscripts.TC_Filter_002" /> -->
+			<class name="org.qa.testscripts.TC_SeatSelection_003" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

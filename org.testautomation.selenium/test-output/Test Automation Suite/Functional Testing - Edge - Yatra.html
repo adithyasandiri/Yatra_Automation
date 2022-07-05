@@ -1,0 +1,308 @@
+<html>
+<head>
+<title>TestNG:  Functional Testing - Edge - Yatra</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Functional Testing - Edge - Yatra</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Jun 26 19:45:36 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>79 seconds (79961 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.qa.testscripts.TC_SeatSelection_003.SearchBuses()'><b>SearchBuses</b><br>Test class: org.qa.testscripts.TC_SeatSelection_003<br>Parameters: Hyderabad, Bangalore<br/>
+<a href="#Output-243364817" onClick='toggleBox("Output-243364817", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-243364817" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-243364817">
+The user is landed on Yatra home page<br/>
+Buses Module is present in the current webpage!<br/>
+DepartFrom text field  is present in the current webpage!<br/>
+Hyderabad location is selected<br/>
+GoingTo text field  is present in the current webpage!<br/>
+Bangalore location is selected<br/>
+Bangalore<br/>
+Calender is Enabled<br/>
+Date in calender is selected<br/>
+SearchButton is displayed<br/>
+TestCase Is Passed<br/>
+==============================================<br/>
+Available Buses based on search Field : 0<br/>
+==============================================<br/>
+</div>
+</td>
+<td></td>
+<td>26</td>
+<td>org.qa.testscripts.TC_SeatSelection_003@6392827e</td></tr>
+<tr>
+<td title='org.qa.testscripts.TC_SeatSelection_003.YatraSeatSelection()'><b>YatraSeatSelection</b><br>Test class: org.qa.testscripts.TC_SeatSelection_003<br>Parameters: Hyderabad, Bangalore<br/>
+<a href="#Output-7129894" onClick='toggleBox("Output-7129894", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-7129894" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-7129894">
+User is landed on SeatSelection page<br/>
+SelecctSeat button is enable<br/>
+Total Available Seats are : 0<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>org.qa.testscripts.TC_SeatSelection_003@6392827e</td></tr>
+<tr>
+<td title='org.qa.testscripts.TC_SeatSelection_003.YatraFilters()'><b>YatraFilters</b><br>Test class: org.qa.testscripts.TC_SeatSelection_003<br>Parameters: Hyderabad, Bangalore<br/>
+<a href="#Output-1366155968" onClick='toggleBox("Output-1366155968", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1366155968" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1366155968">
+User is landed on the desired page<br/>
+Filter Tab is Displayed in the page!.<br/>
+BusType Element is clicked<br/>
+AcSeater option is displayed<br/>
+AcSleeper checkbox is Enabled<br/>
+DepartTime is Selected<br/>
+ArrivalTime is Selected<br/>
+ApplyFilter button is enabled<br/>
+Available buses based on Filters : 17<br/>
+Orange Tours And Travels
+Scania AC Multi Axle Sleeper (2+1)
+14:55
+9h 35m
+Boarding/Dropping Points
+00:30
+? 1,850
+31 Seats Left
+Select Seat
+Cancellation Policy<br/>
+Orange Tours and Travels Platinum
+Volvo Multi-Axle Sleeper A-C (2+1)
+14:55
+9h 20m
+Boarding/Dropping Points
+00:15
+? 1,850
+37 Seats Left
+Select Seat
+Cancellation Policy<br/>
+SRL Bus
+AC Sleeper (2 + 1)
+15:00
+10h 20m
+Boarding/Dropping Points
+01:20
+? 1,350
+31 Seats Left
+Select Seat
+Cancellation Policy<br/>
+Kallada Travels (Suresh Kallada)
+A-C Sleeper (2+1)
+15:15
+10h
+Boarding/Dropping Points
+01:15
+? 1,470
+25 Seats Left
+Select Seat
+Cancellation Policy<br/>
+Swamy Ayyappa Travels
+Capella A-C Sleeper (2+1)
+15:20
+9h 45m
+Boarding/Dropping Points
+01:05
+? 1,630
+31 Seats Left
+Select Seat
+Cancellation Policy<br/>
+Swamy Ayyappa Travels
+Capella A-C Sleeper (2+1)
+15:20
+10h
+Boarding/Dropping Points
+01:20
+? 1,630
+23 Seats Left
+Select Seat
+Cancellation Policy<br/>
+Alhind Tours and Travels Pvt Ltd
+Volvo Multi-Axle Sleeper A-C (2+1)
+15:40
+9h 35m
+Boarding/Dropping Points
+01:15
+? 1,580
+35 Seats Left
+Select Seat
+Cancellation Policy<br/>
+SHREE ROAD LINES SRL
+A-C Sleeper (2+1)
+15:45
+9h 40m
+Boarding/Dropping Points
+01:25
+? 1,420
+36 Seats Left
+Select Seat
+Cancellation Policy<br/>
+Orange Tours and Travels Platinum
+Volvo Multi-Axle Sleeper A-C (2+1)
+15:50
+9h 55m
+Boarding/Dropping Points
+01:45
+? 1,850
+29 Seats Left
+Select Seat
+Cancellation Policy<br/>
+Swamy Ayyappa Travels
+AC Sleeper (2 + 1)
+16:00
+9h 15m
+Boarding/Dropping Points
+01:15
+? 1,550
+23 Seats Left
+Select Seat
+Cancellation Policy<br/>
+Kallada Travels (Suresh Kallada)
+A-C Sleeper (2+1)
+16:15
+9h 45m
+Boarding/Dropping Points
+02:00
+? 1,470
+25 Seats Left
+Select Seat
+Cancellation Policy<br/>
+Swamy Ayyappa Travels
+Volvo Multi-Axle Sleeper A-C (2+1)
+16:20
+10h 5m
+Boarding/Dropping Points
+02:25
+? 1,680
+25 Seats Left
+Select Seat
+Cancellation Policy<br/>
+Orange Tours and Travels Platinum
+AC-SLEEPER
+16:30
+9h 45m
+Boarding/Dropping Points
+02:15
+? 1,550
+11 Seats Left
+Select Seat
+Cancellation Policy<br/>
+Swamy Ayyappa Travels
+AC Sleeper (2 + 1)
+17:00
+8h
+Boarding/Dropping Points
+01:00
+? 1,550
+30 Seats Left
+Select Seat
+Cancellation Policy<br/>
+Orange Tours and Travels
+AC-SEATER
+17:05
+10h 5m
+Boarding/Dropping Points
+03:10
+? 1,100
+45 Seats Left
+Select Seat
+Cancellation Policy<br/>
+Kallada Tours and Travels
+AC Sleeper (2 + 1)
+17:15
+9h 20m
+Boarding/Dropping Points
+02:35
+? 1,400
+27 Seats Left
+Select Seat
+Cancellation Policy<br/>
+Swamy Ayyappa Travels
+VOLVO AC Multi Axle Sleeper (2 + 1)
+17:15
+9h 30m
+Boarding/Dropping Points
+02:45
+? 1,600
+25 Seats Left
+Select Seat
+Cancellation Policy<br/>
+</div>
+</td>
+<td></td>
+<td>26</td>
+<td>org.qa.testscripts.TC_SeatSelection_003@6392827e</td></tr>
+</table><p>
+</body>
+</html>

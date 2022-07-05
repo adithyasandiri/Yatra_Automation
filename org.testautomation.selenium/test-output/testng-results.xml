@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[The user is landed on Yatra home page]]>
+    </line>
+    <line>
+      <![CDATA[Buses Module is present in the current webpage!]]>
+    </line>
+    <line>
+      <![CDATA[DepartFrom text field  is present in the current webpage!]]>
+    </line>
+    <line>
+      <![CDATA[Hyderabad location is selected]]>
+    </line>
+    <line>
+      <![CDATA[GoingTo text field  is present in the current webpage!]]>
+    </line>
+    <line>
+      <![CDATA[Bangalore location is selected]]>
+    </line>
+    <line>
+      <![CDATA[Bangalore]]>
+    </line>
+    <line>
+      <![CDATA[Calender is Enabled]]>
+    </line>
+    <line>
+      <![CDATA[Date in calender is selected]]>
+    </line>
+    <line>
+      <![CDATA[SearchButton is displayed]]>
+    </line>
+    <line>
+      <![CDATA[TestCase Is Passed]]>
+    </line>
+    <line>
+      <![CDATA[==============================================]]>
+    </line>
+    <line>
+      <![CDATA[Available Buses based on search Field : 0]]>
+    </line>
+    <line>
+      <![CDATA[==============================================]]>
+    </line>
+    <line>
+      <![CDATA[User is landed on the desired page]]>
+    </line>
+    <line>
+      <![CDATA[Filter Tab is Displayed in the page!.]]>
+    </line>
+    <line>
+      <![CDATA[BusType Element is clicked]]>
+    </line>
+    <line>
+      <![CDATA[AcSeater option is displayed]]>
+    </line>
+    <line>
+      <![CDATA[AcSleeper checkbox is Enabled]]>
+    </line>
+    <line>
+      <![CDATA[DepartTime is Selected]]>
+    </line>
+    <line>
+      <![CDATA[ArrivalTime is Selected]]>
+    </line>
+    <line>
+      <![CDATA[ApplyFilter button is enabled]]>
+    </line>
+    <line>
+      <![CDATA[Available buses based on Filters : 17]]>
+    </line>
+    <line>
+      <![CDATA[Orange Tours And Travels
+Scania AC Multi Axle Sleeper (2+1)
+14:55
+9h 35m
+Boarding/Dropping Points
+00:30
+₹ 1,850
+31 Seats Left
+Select Seat
+Cancellation Policy]]>
+    </line>
+    <line>
+      <![CDATA[Orange Tours and Travels Platinum
+Volvo Multi-Axle Sleeper A-C (2+1)
+14:55
+9h 20m
+Boarding/Dropping Points
+00:15
+₹ 1,850
+37 Seats Left
+Select Seat
+Cancellation Policy]]>
+    </line>
+    <line>
+      <![CDATA[SRL Bus
+AC Sleeper (2 + 1)
+15:00
+10h 20m
+Boarding/Dropping Points
+01:20
+₹ 1,350
+31 Seats Left
+Select Seat
+Cancellation Policy]]>
+    </line>
+    <line>
+      <![CDATA[Kallada Travels (Suresh Kallada)
+A-C Sleeper (2+1)
+15:15
+10h
+Boarding/Dropping Points
+01:15
+₹ 1,470
+25 Seats Left
+Select Seat
+Cancellation Policy]]>
+    </line>
+    <line>
+      <![CDATA[Swamy Ayyappa Travels
+Capella A-C Sleeper (2+1)
+15:20
+9h 45m
+Boarding/Dropping Points
+01:05
+₹ 1,630
+31 Seats Left
+Select Seat
+Cancellation Policy]]>
+    </line>
+    <line>
+      <![CDATA[Swamy Ayyappa Travels
+Capella A-C Sleeper (2+1)
+15:20
+10h
+Boarding/Dropping Points
+01:20
+₹ 1,630
+23 Seats Left
+Select Seat
+Cancellation Policy]]>
+    </line>
+    <line>
+      <![CDATA[Alhind Tours and Travels Pvt Ltd
+Volvo Multi-Axle Sleeper A-C (2+1)
+15:40
+9h 35m
+Boarding/Dropping Points
+01:15
+₹ 1,580
+35 Seats Left
+Select Seat
+Cancellation Policy]]>
+    </line>
+    <line>
+      <![CDATA[SHREE ROAD LINES SRL
+A-C Sleeper (2+1)
+15:45
+9h 40m
+Boarding/Dropping Points
+01:25
+₹ 1,420
+36 Seats Left
+Select Seat
+Cancellation Policy]]>
+    </line>
+    <line>
+      <![CDATA[Orange Tours and Travels Platinum
+Volvo Multi-Axle Sleeper A-C (2+1)
+15:50
+9h 55m
+Boarding/Dropping Points
+01:45
+₹ 1,850
+29 Seats Left
+Select Seat
+Cancellation Policy]]>
+    </line>
+    <line>
+      <![CDATA[Swamy Ayyappa Travels
+AC Sleeper (2 + 1)
+16:00
+9h 15m
+Boarding/Dropping Points
+01:15
+₹ 1,550
+23 Seats Left
+Select Seat
+Cancellation Policy]]>
+    </line>
+    <line>
+      <![CDATA[Kallada Travels (Suresh Kallada)
+A-C Sleeper (2+1)
+16:15
+9h 45m
+Boarding/Dropping Points
+02:00
+₹ 1,470
+25 Seats Left
+Select Seat
+Cancellation Policy]]>
+    </line>
+    <line>
+      <![CDATA[Swamy Ayyappa Travels
+Volvo Multi-Axle Sleeper A-C (2+1)
+16:20
+10h 5m
+Boarding/Dropping Points
+02:25
+₹ 1,680
+25 Seats Left
+Select Seat
+Cancellation Policy]]>
+    </line>
+    <line>
+      <![CDATA[Orange Tours and Travels Platinum
+AC-SLEEPER
+16:30
+9h 45m
+Boarding/Dropping Points
+02:15
+₹ 1,550
+11 Seats Left
+Select Seat
+Cancellation Policy]]>
+    </line>
+    <line>
+      <![CDATA[Swamy Ayyappa Travels
+AC Sleeper (2 + 1)
+17:00
+8h
+Boarding/Dropping Points
+01:00
+₹ 1,550
+30 Seats Left
+Select Seat
+Cancellation Policy]]>
+    </line>
+    <line>
+      <![CDATA[Orange Tours and Travels
+AC-SEATER
+17:05
+10h 5m
+Boarding/Dropping Points
+03:10
+₹ 1,100
+45 Seats Left
+Select Seat
+Cancellation Policy]]>
+    </line>
+    <line>
+      <![CDATA[Kallada Tours and Travels
+AC Sleeper (2 + 1)
+17:15
+9h 20m
+Boarding/Dropping Points
+02:35
+₹ 1,400
+27 Seats Left
+Select Seat
+Cancellation Policy]]>
+    </line>
+    <line>
+      <![CDATA[Swamy Ayyappa Travels
+VOLVO AC Multi Axle Sleeper (2 + 1)
+17:15
+9h 30m
+Boarding/Dropping Points
+02:45
+₹ 1,600
+25 Seats Left
+Select Seat
+Cancellation Policy]]>
+    </line>
+    <line>
+      <![CDATA[User is landed on SeatSelection page]]>
+    </line>
+    <line>
+      <![CDATA[SelecctSeat button is enable]]>
+    </line>
+    <line>
+      <![CDATA[Total Available Seats are : 0]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-06-26T19:45:36 IST" name="Test Automation Suite" finished-at="2022-06-26T19:46:56 IST" duration-ms="79961">
+    <groups>
+    </groups>
+    <test started-at="2022-06-26T19:45:36 IST" name="Functional Testing - Edge - Yatra" finished-at="2022-06-26T19:46:56 IST" duration-ms="79961">
+      <class name="org.qa.testscripts.TC_SeatSelection_003">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:org.qa.testscripts.TC_SeatSelection_003@6392827e]" started-at="2022-06-26T19:45:37 IST" name="setup" finished-at="2022-06-26T19:45:48 IST" duration-ms="11771" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.yatra.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SearchBuses(java.lang.String,java.lang.String)[pri:1, instance:org.qa.testscripts.TC_SeatSelection_003@6392827e]" started-at="2022-06-26T19:45:51 IST" name="SearchBuses" data-provider="getData" finished-at="2022-06-26T19:46:17 IST" duration-ms="26402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The user is landed on Yatra home page]]>
+            </line>
+            <line>
+              <![CDATA[Buses Module is present in the current webpage!]]>
+            </line>
+            <line>
+              <![CDATA[DepartFrom text field  is present in the current webpage!]]>
+            </line>
+            <line>
+              <![CDATA[Hyderabad location is selected]]>
+            </line>
+            <line>
+              <![CDATA[GoingTo text field  is present in the current webpage!]]>
+            </line>
+            <line>
+              <![CDATA[Bangalore location is selected]]>
+            </line>
+            <line>
+              <![CDATA[Bangalore]]>
+            </line>
+            <line>
+              <![CDATA[Calender is Enabled]]>
+            </line>
+            <line>
+              <![CDATA[Date in calender is selected]]>
+            </line>
+            <line>
+              <![CDATA[SearchButton is displayed]]>
+            </line>
+            <line>
+              <![CDATA[TestCase Is Passed]]>
+            </line>
+            <line>
+              <![CDATA[==============================================]]>
+            </line>
+            <line>
+              <![CDATA[Available Buses based on search Field : 0]]>
+            </line>
+            <line>
+              <![CDATA[==============================================]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchBuses -->
+        <test-method signature="YatraFilters(java.lang.String,java.lang.String)[pri:2, instance:org.qa.testscripts.TC_SeatSelection_003@6392827e]" started-at="2022-06-26T19:46:17 IST" name="YatraFilters" data-provider="getData" finished-at="2022-06-26T19:46:44 IST" duration-ms="26409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[User is landed on the desired page]]>
+            </line>
+            <line>
+              <![CDATA[Filter Tab is Displayed in the page!.]]>
+            </line>
+            <line>
+              <![CDATA[BusType Element is clicked]]>
+            </line>
+            <line>
+              <![CDATA[AcSeater option is displayed]]>
+            </line>
+            <line>
+              <![CDATA[AcSleeper checkbox is Enabled]]>
+            </line>
+            <line>
+              <![CDATA[DepartTime is Selected]]>
+            </line>
+            <line>
+              <![CDATA[ArrivalTime is Selected]]>
+            </line>
+            <line>
+              <![CDATA[ApplyFilter button is enabled]]>
+            </line>
+            <line>
+              <![CDATA[Available buses based on Filters : 17]]>
+            </line>
+            <line>
+              <![CDATA[Orange Tours And Travels
+Scania AC Multi Axle Sleeper (2+1)
+14:55
+9h 35m
+Boarding/Dropping Points
+00:30
+₹ 1,850
+31 Seats Left
+Select Seat
+Cancellation Policy]]>
+            </line>
+            <line>
+              <![CDATA[Orange Tours and Travels Platinum
+Volvo Multi-Axle Sleeper A-C (2+1)
+14:55
+9h 20m
+Boarding/Dropping Points
+00:15
+₹ 1,850
+37 Seats Left
+Select Seat
+Cancellation Policy]]>
+            </line>
+            <line>
+              <![CDATA[SRL Bus
+AC Sleeper (2 + 1)
+15:00
+10h 20m
+Boarding/Dropping Points
+01:20
+₹ 1,350
+31 Seats Left
+Select Seat
+Cancellation Policy]]>
+            </line>
+            <line>
+              <![CDATA[Kallada Travels (Suresh Kallada)
+A-C Sleeper (2+1)
+15:15
+10h
+Boarding/Dropping Points
+01:15
+₹ 1,470
+25 Seats Left
+Select Seat
+Cancellation Policy]]>
+            </line>
+            <line>
+              <![CDATA[Swamy Ayyappa Travels
+Capella A-C Sleeper (2+1)
+15:20
+9h 45m
+Boarding/Dropping Points
+01:05
+₹ 1,630
+31 Seats Left
+Select Seat
+Cancellation Policy]]>
+            </line>
+            <line>
+              <![CDATA[Swamy Ayyappa Travels
+Capella A-C Sleeper (2+1)
+15:20
+10h
+Boarding/Dropping Points
+01:20
+₹ 1,630
+23 Seats Left
+Select Seat
+Cancellation Policy]]>
+            </line>
+            <line>
+              <![CDATA[Alhind Tours and Travels Pvt Ltd
+Volvo Multi-Axle Sleeper A-C (2+1)
+15:40
+9h 35m
+Boarding/Dropping Points
+01:15
+₹ 1,580
+35 Seats Left
+Select Seat
+Cancellation Policy]]>
+            </line>
+            <line>
+              <![CDATA[SHREE ROAD LINES SRL
+A-C Sleeper (2+1)
+15:45
+9h 40m
+Boarding/Dropping Points
+01:25
+₹ 1,420
+36 Seats Left
+Select Seat
+Cancellation Policy]]>
+            </line>
+            <line>
+              <![CDATA[Orange Tours and Travels Platinum
+Volvo Multi-Axle Sleeper A-C (2+1)
+15:50
+9h 55m
+Boarding/Dropping Points
+01:45
+₹ 1,850
+29 Seats Left
+Select Seat
+Cancellation Policy]]>
+            </line>
+            <line>
+              <![CDATA[Swamy Ayyappa Travels
+AC Sleeper (2 + 1)
+16:00
+9h 15m
+Boarding/Dropping Points
+01:15
+₹ 1,550
+23 Seats Left
+Select Seat
+Cancellation Policy]]>
+            </line>
+            <line>
+              <![CDATA[Kallada Travels (Suresh Kallada)
+A-C Sleeper (2+1)
+16:15
+9h 45m
+Boarding/Dropping Points
+02:00
+₹ 1,470
+25 Seats Left
+Select Seat
+Cancellation Policy]]>
+            </line>
+            <line>
+              <![CDATA[Swamy Ayyappa Travels
+Volvo Multi-Axle Sleeper A-C (2+1)
+16:20
+10h 5m
+Boarding/Dropping Points
+02:25
+₹ 1,680
+25 Seats Left
+Select Seat
+Cancellation Policy]]>
+            </line>
+            <line>
+              <![CDATA[Orange Tours and Travels Platinum
+AC-SLEEPER
+16:30
+9h 45m
+Boarding/Dropping Points
+02:15
+₹ 1,550
+11 Seats Left
+Select Seat
+Cancellation Policy]]>
+            </line>
+            <line>
+              <![CDATA[Swamy Ayyappa Travels
+AC Sleeper (2 + 1)
+17:00
+8h
+Boarding/Dropping Points
+01:00
+₹ 1,550
+30 Seats Left
+Select Seat
+Cancellation Policy]]>
+            </line>
+            <line>
+              <![CDATA[Orange Tours and Travels
+AC-SEATER
+17:05
+10h 5m
+Boarding/Dropping Points
+03:10
+₹ 1,100
+45 Seats Left
+Select Seat
+Cancellation Policy]]>
+            </line>
+            <line>
+              <![CDATA[Kallada Tours and Travels
+AC Sleeper (2 + 1)
+17:15
+9h 20m
+Boarding/Dropping Points
+02:35
+₹ 1,400
+27 Seats Left
+Select Seat
+Cancellation Policy]]>
+            </line>
+            <line>
+              <![CDATA[Swamy Ayyappa Travels
+VOLVO AC Multi Axle Sleeper (2 + 1)
+17:15
+9h 30m
+Boarding/Dropping Points
+02:45
+₹ 1,600
+25 Seats Left
+Select Seat
+Cancellation Policy]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- YatraFilters -->
+        <test-method signature="YatraSeatSelection(java.lang.String,java.lang.String)[pri:3, instance:org.qa.testscripts.TC_SeatSelection_003@6392827e]" started-at="2022-06-26T19:46:44 IST" name="YatraSeatSelection" data-provider="getData" finished-at="2022-06-26T19:46:51 IST" duration-ms="6544" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[User is landed on SeatSelection page]]>
+            </line>
+            <line>
+              <![CDATA[SelecctSeat button is enable]]>
+            </line>
+            <line>
+              <![CDATA[Total Available Seats are : 0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- YatraSeatSelection -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.qa.testscripts.TC_SeatSelection_003@6392827e]" started-at="2022-06-26T19:46:51 IST" name="tearDown" finished-at="2022-06-26T19:46:56 IST" duration-ms="5285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.qa.testscripts.TC_SeatSelection_003 -->
+    </test> <!-- Functional Testing - Edge - Yatra -->
+  </suite> <!-- Test Automation Suite -->
+</testng-results>
