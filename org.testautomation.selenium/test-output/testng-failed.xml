@@ -10,10 +10,9 @@
     <classes>
       <class name="org.qa.testscripts.TC_SeatSelection_003">
         <methods>
-          <include name="SearchBuses" invocation-numbers="0"/>
+          <include name="YatraSeatSelection" invocation-numbers="0"/>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="YatraFilters" invocation-numbers="0"/>
         </methods>
       </class> <!-- org.qa.testscripts.TC_SeatSelection_003 -->
     </classes>

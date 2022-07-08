@@ -2,6 +2,7 @@ package org.qa.pages;
 
 import java.util.List;
 
+import org.apache.xmlbeans.impl.xb.xsdschema.Public;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindAll;
@@ -209,13 +210,6 @@ public class YatraPages {
 	}
 
 
-
-	@FindBy(linkText ="Upper Deck" )
-	WebElement SeatPreferance; 
-	public WebElement getSeatPreferance() { 
-		return SeatPreferance; 
-		}
-
 	@FindAll(@FindBy(xpath = "//li[@class='sleeper Sleeper']"))
 	List<WebElement> AvailableSeats;
 	public List<WebElement> getAvailableSeats(){
@@ -226,6 +220,12 @@ public class YatraPages {
 	public List<WebElement> getBoardingPoints(){
 		return BoardingPoints;
 	}
+	@FindBy(xpath="//body[1]/div[1]/div[1]/div[6]/div[16]/div[1]/section[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]")
+	WebElement SelectBoarding;
+	public WebElement getSelectBoarding() {
+		return SelectBoarding;
+	}
+	
 	@FindAll(@FindBy(xpath= "//*[@id=\"city\"]/div/div/div[2]/div"))
 	List<WebElement> DroppingPoints;
 	public List<WebElement> getDroppingPoints(){

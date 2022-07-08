@@ -3,7 +3,9 @@ package org.qa.testscripts;
 import java.io.IOException;
 import java.util.List;
 
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
@@ -23,40 +25,45 @@ public class TC_SeatSelection_003 extends TC_Filter_002 {
 				Thread.sleep(3000);
 
 				jse.executeScript("arguments[0].click()", SelectSeat);//ElementClickInterceptedException 
-				//SelectSeat.click();
 				Thread.sleep(3000);
-				/*
-				 * WebElement UpperDeck = YatraOR.getSeatPreferance(); Thread.sleep(1000);
-				 * boolean SeatPreference = UpperDeck.isDisplayed(); if(SeatPreference) {
-				 * Reporter.log("UpperDeck is Selected",true);
-				 * SAssert.assertTrue(SeatPreference); Thread.sleep(3000); UpperDeck.click();
-				 * Thread.sleep(3000);
-				 * 
-				 * List<WebElement> AvailableSeats = YatraOR.getAvailableSeats();
-				 * Reporter.log("Total Available Seats are : " + AvailableSeats.size(),true);
-				 * for(WebElement ASeats:AvailableSeats) {
-				 * Reporter.log("AvailableSeats Numbers are : "+ASeats.getText(),true); }
-				 * WebElement ChoosingSeat = AvailableSeats.get(1); ChoosingSeat.click();
-				 * Thread.sleep(6000);
-				 * 
-				 * } else { captureScreenshot(driver,"YatraSeatSelection");
-				 * Reporter.log("UpperDeck is not Selected");
-				 * SAssert.assertTrue(SeatPreference); }
-				 */
 				
-				/*
-				 * WebElement AvailableSeats = YatraOR.getAvailableSeats(); Thread.sleep(3000);
-				 * AvailableSeats.click(); Thread.sleep(6000);
-				 */
+				//Printing Available seats and Selecting the Seats
 				List<WebElement> AvailableSeats = YatraOR.getAvailableSeats();
 				 Reporter.log("Total Available Seats are : " + AvailableSeats.size(),true);
 				 
+				 WebElement Seat = AvailableSeats.get(1);
+				 Seat.click();
+				Thread.sleep(3000);
+				
+				//Selecting the Boarding Pint
+				List<WebElement> BoardingP = YatraOR.getBoardingPoints();
+				 Reporter.log("==================================",true);
+				 for(WebElement Boarding : BoardingP) {
+					 Reporter.log(Boarding.getText(),true);
+				 }
+				 Reporter.log("==================================",true);
+				 Thread.sleep(3000);
+				 //WebElement SelectBP = YatraOR.getSelectBoarding();
+				 //SelectBP.sendKeys(Keys.ARROW_DOWN, Keys.ENTER);
+				 //Select select = new Select(SelectBP);
+				  //select.selectByVisibleText("Suchitra");
+				 //Selecting the Draping point
+				 
+//				 List<WebElement> DrapingP = YatraOR.getDroppingPoints();
+//				 Reporter.log("==================================",true);
+//				 for(WebElement Draping : DrapingP) {
+//					 Reporter.log(Draping.getText(),true);
+//				 }
+//				 Reporter.log("==================================",true);
+//				 WebElement DP = DrapingP.get(2);
+//				 DP.click();
 			}
 			else {
 				captureScreenshot(driver, "YatraSeatSelection");
-				Reporter.log("SelecctSeat button is enable",true);
+				Reporter.log("SelecctSeat button is not enable",true);
 				SAssert.assertTrue(SelectBtn);
 			}
+			
 
 
 		}

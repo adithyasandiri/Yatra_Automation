@@ -44,15 +44,6 @@ public class TC_YatraBuses_001 extends TestBase {
 					DepartField.sendKeys(Keys.ENTER);
 					Reporter.log(Depart_Location + " location is selected", true);
 
-					/*
-					 * List<WebElement> D_LocationList = YatraOR.getDepartLocation();
-					 * Reporter.log("Depart From Locations are :" +D_LocationList.size(),true);
-					 * 
-					 * for(WebElement location: D_LocationList) {
-					 * Reporter.log(location.getText(),true); } WebElement locate =
-					 * D_LocationList.get(0); locate.click();
-					 */
-
 				} else {
 					captureScreenshot(driver, "SearchBuses");
 					Reporter.log("DepartField is not present in the webpage!.", true);
@@ -75,7 +66,6 @@ public class TC_YatraBuses_001 extends TestBase {
 					// Reporter.log(Going_Location + " Destination is selected",true);
 					List<WebElement> Going = YatraOR.getGoingToLocation();
 					Reporter.log(Going_Location + " location is selected", true);
-//					Reporter.log("Going To Location are : " + Going.size(), true);
 
 					for (WebElement GLocation : Going) {
 						Reporter.log(GLocation.getText(), true);
